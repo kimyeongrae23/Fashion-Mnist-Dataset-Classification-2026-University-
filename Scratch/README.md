@@ -47,24 +47,25 @@ Fashion MNIST는 숫자 MNIST보다 분류 난이도가 높고, 셔츠, 코트, 
 
 3. 파일 구성
 Scratch/
-├─ train_scratch_fashion_mnist.py
-├─ fashion_mnist_loader.py
-├─ fashion_convnet.py
-├─ verify_no_framework.py
-├─ common/
-│  ├─ __init__.py
-│  ├─ functions.py
-│  ├─ gradient.py
-│  ├─ layers.py
-│  ├─ optimizer.py
-│  └─ util.py
-├─ accuracy_graph.png
-├─ loss_graph.png
-├─ train_log.txt
-├─ last_20_log.txt
-├─ params_best.pkl
-└─ params_last.pkl
-4. 데이터셋
+train_scratch_fashion_mnist.py
+fashion_mnist_loader.py
+fashion_convnet.py
+verify_no_framework.py
+common/
+__init__.py
+functions.py
+gradient.py
+layers.py
+optimizer.py
+util.py
+accuracy_graph.png
+loss_graph.png
+train_log.txt
+last_20_log.txt
+params_best.pkl
+params_last.pkl
+
+5. 데이터셋
 
 Fashion MNIST 데이터 파일은 용량 문제로 저장소에 포함하지 않았습니다.
 
